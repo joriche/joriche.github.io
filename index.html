@@ -1,97 +1,45 @@
-HEADINGS:
-
 <!DOCTYPE html>
 <html>
-<body>
-
-<h1>COWS!</h1>
-<h2>Gotta Love Em'</h2>
-
-<p>Want to eat cows?</p>
-<p>But don't know where to buy cows so you can eat them?</p>
-<p>Want a piece of cow in your mouth?</p>
-
-<p>Come by the shop! <b>Freshly ground pepper not included, only freshly ground cows!</b></p>
-
-<a href="https://www.farmersbutchershop.ca/">Visit Your Local Butcher!</a>
-
-<p>I am normal</p>
-<p style="color:red;">I love cows.</p>
-<p style="color:blue;">COWS LOVE ME.</p>
-<p style="font-size:50px;">humans eat cows and non-picky cows eat humans.</p>
-
-<p><b>Cows are great.</b></p>
-<p><i>But not that great.</i></p>
-<p>This is <sub>Sparta</sub> and <sup>not-Sparta</sup></p>
-
-<p>Here is a quote from WWF's website:</p>
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-There are too many cows here. PLEASE. Eat them fast, eat them slow, eat enough to make your belly grow!
-</blockquote>
-
-<h2>HTML Image</h2>
-<img src="https://sfae.com/getattachment/7458faf8-c4b6-4526-983f-17478fe02df3/600">
-
 <head>
 <style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: oldlace;
 }
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+.all-browsers > h1, .browser {
+  margin: 5px;
+  padding: 10px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+.browser {
+  background:floralwhite;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 95%;
 }
 </style>
 </head>
+<body>
 
-<h2>HTML Table</h2>
-
-<table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
+<article class="all-browsers">
+  <h1>Joshua B. Richer</h1>
+  <article class="browser">
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+  <article class="browser">
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+  <article class="browser">
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</article>
 
 </body>
 </html>
-
