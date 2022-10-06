@@ -26,21 +26,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 75px
 }
-</style>
-</head>
-<body>
 
-<div class="hero-image">
-  <div class="hero-text">
-    <h1> style="font-size:75px"><span style="border:1px solid black;background-color:black;padding:10px;opacity:0.6">Joshua Richer</span></h1>
-    <h3><span style="border:1px solid black;background-color:black;padding:10px;opacity:0.6">An I'm a Cartographer</span></h3>
-    <button>About me</button>
-  </div>
-</div>
+.span {
+  border: 1px solid black;
+  background-color: black;
+  padding: 10px
+}
 
-<head>
-<style>
 div {
   background: rgb(0, 0, 0);
   padding: 10px;
@@ -58,19 +52,26 @@ div.second {
 </head>
 <body>
 
-<h1>Transparent Boxes</h1>
+<div class="hero-image">
+  <div class="hero-text">
 
-<h2>Using the opacity property:</h2>
-<div style="opacity:0.1;"><p>10% opacity</p></div>
-<div style="opacity:0.3;"><p>30% opacity</p></div>
-<div style="opacity:0.6;"><p>60% opacity</p></div>
-<div><p>opacity 1</p></div>
 
-<h2>Using RGBA color values:</h2>
-<div class="first"><p>10% opacity</p></div>
-<div class="second"><p>30% opacity</p></div>
-<div class="third"><p>60% opacity</p></div>
-<div><p>default</p></div>
+	  
+    <h1><span style="border:1px solid black;background-color:black;padding:10px">Joshua Richer</span></h1>
+    <h3><span style="border:1px solid black;background-color:black;padding:10px">An I'm a Cartographer</span></h3>
+
+
+
+    <button>About me</button>
+  </div>
+</div>
+
+<body>
+
+	<h1><span>Joshua Richer</span></h1>
+
+<div class="first"><p>Joshua Richer</p></div>
+<div class="second"><p>And I am a Cartographic Specialist</p></div>
 
 </body>
 
