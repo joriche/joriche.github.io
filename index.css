@@ -11,6 +11,15 @@ body {
   background-size: cover;
   position: relative;
 }
+.hero-photo {
+  background-image: url("Images/Layout1.jpg");
+  background-color: rgb(255, 195, 0);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .hero-text {
   text-align: center;
   position: absolute;
