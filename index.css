@@ -60,7 +60,7 @@ table, th, td {
 }
 div.gallery {
   margin: 25px;
-  float: center;
+  float: left;
   width: 400px;
 }
 
