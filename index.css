@@ -12,7 +12,7 @@ body {
   position: relative;
 }
 .hero-photo {
-  background-image: url("Images/Layout1.jpg");
+  background-image: url("Images/Water.jpg");
   background-color: rgb(255, 195, 0);
   height: 500px;
   background-position: center;
@@ -46,7 +46,7 @@ span {
   color: rgb(0, 0, 0);
 }
 .browser {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 195, 0);
 }
 .browser > h2, p {
   text-align: center;
@@ -59,7 +59,7 @@ table, th, td {
   width: 100%;
 }
 div.gallery {
-  margin: 35px;
+  margin: 25px;
   float: left;
   width: 400px;
 }
