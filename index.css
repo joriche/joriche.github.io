@@ -55,6 +55,7 @@ body {
   margin: 10px;
   padding: 5px;
   color: rgb(255, 195, 0);
+  font-size: 80px;
 }
 .browser {
   background: rgb(0, 0, 0);
@@ -62,7 +63,7 @@ body {
 .browser > h2, p {
   text-align: center;
   margin: 4px;
-  font-size: 90%;
+  font-size: 60px;
   color: rgb(255, 195, 0);
 }
 div.gallery {
