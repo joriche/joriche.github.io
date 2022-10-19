@@ -29,12 +29,6 @@ body {
   background-size: cover;
   position: relative;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10px;
-}
 .hero-text {
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.6);
@@ -69,10 +63,6 @@ img {
   margin: 4px;
   font-size: 90%;
   color: rgb(0, 0, 0);
-}
-table, th, td {
-  border:1px solid rgb(0, 0, 0);
-  width: 100%;
 }
 div.gallery {
   margin: 25px;
