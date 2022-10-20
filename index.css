@@ -58,7 +58,7 @@ body {
   font-size: 100px;
 }
 .browser {
-  background: rgb(255, 195, 0);
+  background: rgb(0, 0, 0);
 }
 .browser > h3, p {
   text-align: center;
