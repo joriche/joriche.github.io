@@ -63,10 +63,10 @@ body {
 .browser > h3, p {
   text-align: center;
   margin: 4px;
-  font-size: 60px;
+  font-size: 70px;
   color: rgb(255, 195, 0);
 }
-.browsers > h4, p {
+.browsers > h4 {
   padding-top: 15px;
   text-align: center;
   margin: 4px;
