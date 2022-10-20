@@ -50,7 +50,7 @@ body {
   padding: 5px;
   background-color: rgb(0, 0, 0);
 }
-.all-browsers > h1, .browser {
+.all-browsers > h2, .browser {
   text-align: center;
   margin: 10px;
   padding: 5px;
@@ -60,7 +60,7 @@ body {
 .browser {
   background: rgb(0, 0, 0);
 }
-.browser > h2, p {
+.browser > h3, p {
   text-align: center;
   margin: 4px;
   font-size: 60px;
